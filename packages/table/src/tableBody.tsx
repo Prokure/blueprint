@@ -168,6 +168,7 @@ export class TableBody extends React.Component<ITableBodyProps, {}> {
                 [CELL_LEDGER_EVEN_CLASS]: (rowIndex % 2) === 0,
             },
             baseCell.props.className,
+            this.props.className
         );
         const key = TableBody.cellReactKey(rowIndex, columnIndex);
         const rect = isGhost ? grid.getGhostCellRect(rowIndex, columnIndex) : grid.getCellRect(rowIndex, columnIndex);
