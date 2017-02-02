@@ -1,5 +1,5 @@
 {
-  "name": "@blueprintjs/table",
+  "name": "prokure_blueprint_table",
   "version": "1.4.1",
   "description": "Scalable interactive table component",
   "main": "dist/index.js",
